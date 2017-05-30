@@ -3,6 +3,6 @@ autoheader
 aclocal
 autoconf
 automake --add-missing
-./configure
+./configure --host=arm-linux
 make
 
